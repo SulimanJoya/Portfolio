@@ -1,0 +1,43 @@
+/* YELLOW color style */
+
+.aside .logo a::before{
+    border-top: 4px  solid #ffb400;
+    border-left: 4px solid #ffb400; 
+}
+.aside .logo a::after{
+    border-bottom: 4px  solid #ffb400;
+    border-right: 4px solid #ffb400;
+}
+
+.aside .nav li a:hover,
+.aside .nav li a.active,
+body.dark .aside .nav li a.active,
+body.dark .aside .nav li a:hover,
+.about .about-content .about-text h3 span,
+body.dark .Portfolio .portfolio-filter button.active,
+.Portfolio .portfolio-filter button.active,
+.Portfolio .portfolio-item .portfolio-info .icon .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.lightbox .lightbox-controls .prev-item .fa,
+.Contact .contact-info-item .icon .fa
+{
+    color: #ffb400;
+}
+
+.btn,
+.section-tittle h2::before,
+.section-tittle h2::after,
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-link a,
+.about .about-content .skills .skill-item .progress-in,
+.about .about-content .timeline .timeline-item::before,
+.about .about-content .timeline .circle-dot
+{
+    background-color: #ffb400;
+}
+
+.Portfolio .portfolio-filter button.active{
+    border-color: #ffb400;
+}
